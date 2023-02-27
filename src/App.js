@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Number of seconds passed: {secondsPassed}</h1>
+      <h1>{secondsPassed} seconds passed</h1>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
     </div>
